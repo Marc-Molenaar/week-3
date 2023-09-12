@@ -1,0 +1,6 @@
+1. ColorDistortion, bedrijf, opdrachtgever
+
+2. NFR1: De applicatie moet kleurnauwkeurigheid garanderen volgens de RAL kleurcoderingnormen
+
+3.  FR1: Invoer van RAL-kleurcodering.
+    FR2: Volledige automatisering van het verfmengproces.
