@@ -1,11 +1,11 @@
 async function start() {
 
     $(".light").css("background-color", "green")
-    await sleep(20);
+    await sleep(5);
     $(".light").css("background-color", "red")
-    await sleep(20);
+    await sleep(5);
     $(".light").css("background-color", "yellow")
-    await sleep(20);
+    await sleep(5);
 
     start()
 }
