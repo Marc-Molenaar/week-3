@@ -6,23 +6,23 @@ def naar_decimaal():
     while not all(number in "01" for number in binair):
         binair = input("Geef een binair getal op: ")
 
-    # Change type of binair to string, so it loops for each number
+    # Verander de type van binair naar string
     binair = str(binair)
 
-    # Set a counter
+    # Zet een teller
     i = len(binair) - 1
 
-    # Set the decimal variable
+    # Zet een decimaal variabel
     decimal = 0
 
-    # For each number in binair
+    # Voor elk nummer in binair
     for number in binair:
-        # Add the result of '(2 ^ position) * number' to the decimal value
+        # Voeg het resultaat van '(2 ^ position) * number' toe aan de decimal waarde
         decimal += pow(2, i) * int(number)
 
         i -= 1
 
-    # Print the final result
+    # Print het resultaat
     print(f"Het resultaat is: {decimal}")
 
 
