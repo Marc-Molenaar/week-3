@@ -35,7 +35,7 @@ def main():
             print(f"\nUw hartslagzone is: {fitness_app.calculate_heartratezone()}")
 
         elif choice == "9":
-            fitness_app.ask_user_data()
+            main()
 
         else:
             print("\n\033[91mOngeldige keuze\033[0m")
